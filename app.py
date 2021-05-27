@@ -1,18 +1,5 @@
 import cv2
 import edgeiq
-"""
-Use image classification to classify a batch of images. The
-classification labels can be changed by selecting different models.
-Different images can be used by updating the files in the *images/*
-directory. Note that when developing for a remote device, removing
-images in the local *images/* directory won't remove images from the
-device. They can be removed using the `aai app shell` command and
-deleting them from the *images/* directory on the remote device.
-
-To change the computer vision model, the engine and accelerator,
-and add additional dependencies read this guide:
-https://alwaysai.co/docs/application_development/configuration_and_packaging.html
-"""
 
 
 def main():
