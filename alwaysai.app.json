@@ -3,6 +3,6 @@
     "start": "python app.py"
   },
   "models": {
-    "alwaysai/googlenet": 7
+    "alwaysai/googlenet": 8
   }
 }
